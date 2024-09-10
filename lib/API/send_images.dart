@@ -12,7 +12,7 @@ class DatabaseConnection {
   late Uint8List image;
   String sessionId = '';
   bool isDone = true;
-  String result = 'Bot';
+  String result = '';
 
   Future<void> sendData(String ipAddress, Uint8List image) async {
     this.ipAddress = ipAddress;
